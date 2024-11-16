@@ -1,0 +1,14 @@
+db:
+  driver: mysql
+  username: root
+  password:
+    from: plain
+    value: dbpsswrd
+  database: articles
+  # host: mysql_server
+  # port: 3306
+  host: localhost
+  port: 3307
+  options: 
+    parseTime: "true"
+    multiStatements: "true"
